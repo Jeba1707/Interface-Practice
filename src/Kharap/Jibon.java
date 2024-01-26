@@ -1,4 +1,5 @@
-package SelfStudy.Kharap;
+package Kharap;
+
 
 public class Jibon implements Kharap{
     public Jibon() {

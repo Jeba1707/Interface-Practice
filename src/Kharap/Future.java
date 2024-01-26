@@ -1,4 +1,5 @@
-package SelfStudy.Kharap;
+package Kharap;
+
 
 public class Future implements Kharap{
     public Future() {

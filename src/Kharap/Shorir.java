@@ -1,4 +1,5 @@
-package SelfStudy.Kharap;
+package Kharap;
+
 
 public class Shorir implements Kharap{
     public Shorir() {

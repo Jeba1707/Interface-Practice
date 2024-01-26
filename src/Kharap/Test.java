@@ -1,4 +1,6 @@
-package SelfStudy.Kharap;
+package Kharap;
+
+
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package SelfStudy.Kharap;
+package Kharap;
 
 public interface Kharap {
     String kharap();
