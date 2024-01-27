@@ -16,8 +16,10 @@ public class Test {
 
     Person p1 = new Person("Jeba",vaggo);
         System.out.println(p1.toString());
-    Person p2 = new Person("Tasnim",grades);
+    Person p2 = new Person("Tasnim",grades,mon,jibon);
         System.out.println(p2.toString());
+        Person p3 = new Person("Sanjida",mood,mon,skin,vaggo,grades);
+        System.out.println(p3.toString());
 
     }
 
