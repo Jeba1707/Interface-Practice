@@ -9,4 +9,8 @@ public class Vaggo implements  Kharap{
     public String kharap() {
         return "Vaggo Kharap";
     }
+    @Override
+    public String toString() {
+        return "Vaggo";
+    }
 }

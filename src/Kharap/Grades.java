@@ -8,4 +8,8 @@ public class Grades implements Kharap{
     public String kharap() {
         return "Grades Kharap";
     }
+    @Override
+    public String toString() {
+        return "Grades";
+    }
 }

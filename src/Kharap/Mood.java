@@ -8,4 +8,8 @@ public class Mood implements Kharap{
     public String kharap() {
         return "Mood Kharap";
     }
+    @Override
+    public String toString() {
+        return "Mood";
+    }
 }

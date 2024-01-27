@@ -9,4 +9,8 @@ public class Skin implements Kharap{
     public String kharap() {
         return "Skin Kharap";
     }
+    @Override
+    public String toString() {
+        return "Skin";
+    }
 }

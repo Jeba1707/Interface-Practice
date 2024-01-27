@@ -6,6 +6,11 @@ public class Future implements Kharap{
     }
 
     @Override
+    public String toString() {
+        return "Future";
+    }
+
+    @Override
     public String kharap() {
        return "Future Kharap";
     }

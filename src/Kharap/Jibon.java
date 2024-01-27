@@ -9,4 +9,8 @@ public class Jibon implements Kharap{
     public String kharap() {
         return "Jibon Kharap";
     }
+    @Override
+    public String toString() {
+        return "Jibon";
+    }
 }

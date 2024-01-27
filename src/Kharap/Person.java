@@ -6,7 +6,10 @@ import java.util.List;
 
 public class Person {
     private String name ;
-    private List<Kharap> kharapList;
+    private List<Kharap> kharapList = new ArrayList<>();;
+
+    public Person() {
+    }
 
     public Person(String name, Kharap ... kharap) {
         this.name = name;
@@ -31,7 +34,6 @@ public class Person {
     }
 
     public void setKharap(Kharap ... kharap) {
-        this.kharapList =new ArrayList<>();
         for (Kharap k :kharap)
        kharapList.add(k);
     }
@@ -42,9 +44,12 @@ public class Person {
         }
 return a;
     }
+    public void addKharap(Kharap kharap) {
 
-    @Override
-    public String toString() {
+            kharapList.add(kharap);
+    }
+
+    public String printKharap() {
         return   name + " er" +kharap(kharapList);
 
     }
